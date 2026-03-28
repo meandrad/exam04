@@ -17,7 +17,7 @@ int ft_product()
 	while(*s == '*')
 	{
 		s++;
-		b = ft_product();
+		b = ft_factor();
 		a = a * b;
 	}
 	return(a);
